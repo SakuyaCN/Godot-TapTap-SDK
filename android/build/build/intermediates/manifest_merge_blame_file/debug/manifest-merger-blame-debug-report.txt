@@ -1,0 +1,225 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sakuya.mb"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="1.0" > <!-- glEsVersion is modified by the exporter, changing this value here has no effect. -->
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="32" />
+10
+11    <supports-screens
+11-->D:\Godot\Godot TapTap SDK\android\build\AndroidManifest.xml:12:5-16:40
+12        android:largeScreens="true"
+12-->D:\Godot\Godot TapTap SDK\android\build\AndroidManifest.xml:15:9-36
+13        android:normalScreens="true"
+13-->D:\Godot\Godot TapTap SDK\android\build\AndroidManifest.xml:14:9-37
+14        android:smallScreens="true"
+14-->D:\Godot\Godot TapTap SDK\android\build\AndroidManifest.xml:13:9-36
+15        android:xlargeScreens="true" />
+15-->D:\Godot\Godot TapTap SDK\android\build\AndroidManifest.xml:16:9-37
+16
+17    <uses-feature
+17-->D:\Godot\Godot TapTap SDK\android\build\src\debug\AndroidManifest.xml:10:5-78
+18        android:glEsVersion="0x00030000"
+18-->D:\Godot\Godot TapTap SDK\android\build\src\debug\AndroidManifest.xml:10:19-51
+19        android:required="true" />
+19-->D:\Godot\Godot TapTap SDK\android\build\src\debug\AndroidManifest.xml:10:52-75
+20
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:10:5-67
+21-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:10:22-64
+22
+23    <queries>
+23-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:12:5-16:15
+24        <package android:name="com.taptap" />
+24-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:13:9-46
+24-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:13:18-43
+25        <package android:name="com.taptap.pad" />
+25-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:14:9-50
+25-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:14:18-47
+26        <package android:name="com.taptap.global" />
+26-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:15:9-53
+26-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:15:18-50
+27    </queries>
+28
+29    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+29-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:18:5-79
+29-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:18:22-76
+30    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+30-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:19:5-21:40
+30-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:20:9-65
+31    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+31-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:22:5-76
+31-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:22:22-73
+32    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+32-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:23:5-75
+32-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:23:22-72
+33
+34    <application
+34-->D:\Godot\Godot TapTap SDK\android\build\AndroidManifest.xml:30:5-94:19
+35        android:allowBackup="false"
+35-->D:\Godot\Godot TapTap SDK\android\build\AndroidManifest.xml:30:68-95
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.2.0] D:\androidCache\.gradle\caches\transforms-3\63d7b6915ca45f6e35b4281bb49b3273\transformed\core-1.2.0\AndroidManifest.xml:24:18-86
+37        android:debuggable="true"
+38        android:hasFragileUserData="false"
+38-->D:\Godot\Godot TapTap SDK\android\build\AndroidManifest.xml:30:118-152
+39        android:icon="@mipmap/icon"
+39-->D:\Godot\Godot TapTap SDK\android\build\AndroidManifest.xml:30:238-265
+40        android:isGame="true"
+40-->D:\Godot\Godot TapTap SDK\android\build\AndroidManifest.xml:30:96-117
+41        android:label="@string/godot_project_name_string"
+41-->D:\Godot\Godot TapTap SDK\android\build\AndroidManifest.xml:30:18-67
+42        android:requestLegacyExternalStorage="false" >
+42-->D:\Godot\Godot TapTap SDK\android\build\AndroidManifest.xml:30:153-197
+43        <activity
+43-->D:\Godot\Godot TapTap SDK\android\build\AndroidManifest.xml:65:9-88:20
+44            android:name="com.godot.game.GodotApp"
+44-->D:\Godot\Godot TapTap SDK\android\build\AndroidManifest.xml:66:13-37
+45            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize|density|keyboard|navigation|screenLayout|uiMode"
+45-->D:\Godot\Godot TapTap SDK\android\build\AndroidManifest.xml:73:13-141
+46            android:excludeFromRecents="false"
+46-->D:\Godot\Godot TapTap SDK\android\build\AndroidManifest.xml:70:13-47
+47            android:exported="true"
+47-->D:\Godot\Godot TapTap SDK\android\build\AndroidManifest.xml:71:13-36
+48            android:label="@string/godot_project_name_string"
+48-->D:\Godot\Godot TapTap SDK\android\build\AndroidManifest.xml:67:13-62
+49            android:launchMode="singleTask"
+49-->D:\Godot\Godot TapTap SDK\android\build\AndroidManifest.xml:69:13-44
+50            android:resizeableActivity="true"
+50-->D:\Godot\Godot TapTap SDK\android\build\AndroidManifest.xml:74:13-47
+51            android:screenOrientation="portrait"
+51-->D:\Godot\Godot TapTap SDK\android\build\AndroidManifest.xml:72:13-50
+52            android:theme="@style/GodotAppSplashTheme" >
+52-->D:\Godot\Godot TapTap SDK\android\build\AndroidManifest.xml:68:13-55
+53            <intent-filter>
+53-->D:\Godot\Godot TapTap SDK\android\build\AndroidManifest.xml:80:13-87:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->D:\Godot\Godot TapTap SDK\android\build\AndroidManifest.xml:81:17-69
+54-->D:\Godot\Godot TapTap SDK\android\build\AndroidManifest.xml:81:25-66
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->D:\Godot\Godot TapTap SDK\android\build\AndroidManifest.xml:82:17-77
+56-->D:\Godot\Godot TapTap SDK\android\build\AndroidManifest.xml:82:27-74
+57
+58                <!--
+59                Enable access to OpenXR on Oculus mobile devices, no-op on other Android
+60                platforms.
+61                -->
+62                <category android:name="com.oculus.intent.category.VR" />
+62-->D:\Godot\Godot TapTap SDK\android\build\AndroidManifest.xml:86:17-74
+62-->D:\Godot\Godot TapTap SDK\android\build\AndroidManifest.xml:86:27-71
+63            </intent-filter>
+64        </activity>
+65        <!-- Records the version of the Godot editor used for building -->
+66        <meta-data
+67            android:name="org.godotengine.editor.version"
+68            android:value="3.5.3.stable" /> <!-- Records the version of the Godot library -->
+69        <meta-data
+69-->[godot-lib.debug.aar] D:\androidCache\.gradle\caches\transforms-3\1ed44de0c88f5890757308c37aee7d69\transformed\jetified-godot-lib.debug\AndroidManifest.xml:14:9-16:44
+70            android:name="org.godotengine.library.version"
+70-->[godot-lib.debug.aar] D:\androidCache\.gradle\caches\transforms-3\1ed44de0c88f5890757308c37aee7d69\transformed\jetified-godot-lib.debug\AndroidManifest.xml:15:13-59
+71            android:value="3.5.3.stable" />
+71-->[godot-lib.debug.aar] D:\androidCache\.gradle\caches\transforms-3\1ed44de0c88f5890757308c37aee7d69\transformed\jetified-godot-lib.debug\AndroidManifest.xml:16:13-41
+72
+73        <service android:name="org.godotengine.godot.GodotDownloaderService" />
+73-->[godot-lib.debug.aar] D:\androidCache\.gradle\caches\transforms-3\1ed44de0c88f5890757308c37aee7d69\transformed\jetified-godot-lib.debug\AndroidManifest.xml:18:9-80
+73-->[godot-lib.debug.aar] D:\androidCache\.gradle\caches\transforms-3\1ed44de0c88f5890757308c37aee7d69\transformed\jetified-godot-lib.debug\AndroidManifest.xml:18:18-77
+74
+75        <activity
+75-->[godot-lib.debug.aar] D:\androidCache\.gradle\caches\transforms-3\1ed44de0c88f5890757308c37aee7d69\transformed\jetified-godot-lib.debug\AndroidManifest.xml:20:9-24:75
+76            android:name="org.godotengine.godot.utils.ProcessPhoenix"
+76-->[godot-lib.debug.aar] D:\androidCache\.gradle\caches\transforms-3\1ed44de0c88f5890757308c37aee7d69\transformed\jetified-godot-lib.debug\AndroidManifest.xml:21:13-70
+77            android:exported="false"
+77-->[godot-lib.debug.aar] D:\androidCache\.gradle\caches\transforms-3\1ed44de0c88f5890757308c37aee7d69\transformed\jetified-godot-lib.debug\AndroidManifest.xml:22:13-37
+78            android:process=":phoenix"
+78-->[godot-lib.debug.aar] D:\androidCache\.gradle\caches\transforms-3\1ed44de0c88f5890757308c37aee7d69\transformed\jetified-godot-lib.debug\AndroidManifest.xml:23:13-39
+79            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+79-->[godot-lib.debug.aar] D:\androidCache\.gradle\caches\transforms-3\1ed44de0c88f5890757308c37aee7d69\transformed\jetified-godot-lib.debug\AndroidManifest.xml:24:13-72
+80
+81        <provider
+81-->[godot-lib.debug.aar] D:\androidCache\.gradle\caches\transforms-3\1ed44de0c88f5890757308c37aee7d69\transformed\jetified-godot-lib.debug\AndroidManifest.xml:26:9-34:20
+82            android:name="androidx.core.content.FileProvider"
+82-->[godot-lib.debug.aar] D:\androidCache\.gradle\caches\transforms-3\1ed44de0c88f5890757308c37aee7d69\transformed\jetified-godot-lib.debug\AndroidManifest.xml:27:13-62
+83            android:authorities="com.sakuya.mb.fileprovider"
+83-->[godot-lib.debug.aar] D:\androidCache\.gradle\caches\transforms-3\1ed44de0c88f5890757308c37aee7d69\transformed\jetified-godot-lib.debug\AndroidManifest.xml:28:13-64
+84            android:exported="false"
+84-->[godot-lib.debug.aar] D:\androidCache\.gradle\caches\transforms-3\1ed44de0c88f5890757308c37aee7d69\transformed\jetified-godot-lib.debug\AndroidManifest.xml:29:13-37
+85            android:grantUriPermissions="true" >
+85-->[godot-lib.debug.aar] D:\androidCache\.gradle\caches\transforms-3\1ed44de0c88f5890757308c37aee7d69\transformed\jetified-godot-lib.debug\AndroidManifest.xml:30:13-47
+86            <meta-data
+86-->[godot-lib.debug.aar] D:\androidCache\.gradle\caches\transforms-3\1ed44de0c88f5890757308c37aee7d69\transformed\jetified-godot-lib.debug\AndroidManifest.xml:31:13-33:64
+87                android:name="android.support.FILE_PROVIDER_PATHS"
+87-->[godot-lib.debug.aar] D:\androidCache\.gradle\caches\transforms-3\1ed44de0c88f5890757308c37aee7d69\transformed\jetified-godot-lib.debug\AndroidManifest.xml:32:17-67
+88                android:resource="@xml/godot_provider_paths" />
+88-->[godot-lib.debug.aar] D:\androidCache\.gradle\caches\transforms-3\1ed44de0c88f5890757308c37aee7d69\transformed\jetified-godot-lib.debug\AndroidManifest.xml:33:17-61
+89        </provider>
+90
+91        <meta-data
+91-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:26:9-28:65
+92            android:name="org.godotengine.plugin.v1.GodotPlugs"
+92-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:27:13-64
+93            android:value="com.sakuya.godot_taptap.GodotMain" />
+93-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:28:13-62
+94
+95        <provider
+95-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:30:9-33:40
+96            android:name="com.tds.common.provider.CurrentConfigProvider"
+96-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:31:13-73
+97            android:authorities="com.sakuya.mb.tap_config.provider"
+97-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:32:13-71
+98            android:exported="false" />
+98-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:33:13-37
+99
+100        <activity
+100-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:35:9-39:86
+101            android:name="com.taptap.sdk.ui.TapTapActivity"
+101-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:36:13-60
+102            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+102-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:37:13-96
+103            android:exported="false"
+103-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:38:13-37
+104            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+104-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:39:13-83
+105        <activity
+105-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:40:9-44:86
+106            android:name="com.taptap.sdk.TapLoginHelperActivity"
+106-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:41:13-65
+107            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+107-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:42:13-96
+108            android:exported="false"
+108-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:43:13-37
+109            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+109-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:44:13-83
+110
+111        <provider
+111-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:46:9-49:40
+112            android:name="com.taptap.sdk.internal.user.CurrentUserProvider"
+112-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:47:13-76
+113            android:authorities="com.sakuya.mb.tap_user.provider"
+113-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:48:13-69
+114            android:exported="false" />
+114-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:49:13-37
+115
+116        <meta-data
+116-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:51:9-53:36
+117            android:name="com.tapsdk.antiaddiction.loader"
+117-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:52:13-59
+118            android:value="true" />
+118-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:53:13-33
+119        <meta-data
+119-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:54:9-56:36
+120            android:name="com.tapsdk.tapconnect.loader"
+120-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:55:13-56
+121            android:value="true" />
+121-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:56:13-33
+122        <meta-data
+122-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:57:9-59:36
+123            android:name="com.tapsdk.moment.loader"
+123-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:58:13-52
+124            android:value="true" />
+124-->[GodotTapTapSdk.aar] D:\androidCache\.gradle\caches\transforms-3\d2982202958aa1abac8561b1f028e525\transformed\jetified-GodotTapTapSdk\AndroidManifest.xml:59:13-33
+125    </application>
+126
+127</manifest>

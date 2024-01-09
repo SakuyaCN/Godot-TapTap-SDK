@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.godot.game-mergeDebugResources-3:/values-w600dp-v13/values-w600dp-v13.xml",
+            "map": [
+                {
+                    "source": "D:\\androidCache\\.gradle\\caches\\transforms-3\\d2982202958aa1abac8561b1f028e525\\transformed\\jetified-GodotTapTapSdk\\res\\values-w600dp-v13\\values-w600dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "160"
+                    }
+                }
+            ]
+        }
+    ]
+}

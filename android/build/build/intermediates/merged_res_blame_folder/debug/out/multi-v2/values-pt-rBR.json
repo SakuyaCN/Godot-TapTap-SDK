@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.godot.game-mergeDebugResources-3:/values-pt-rBR/values-pt-rBR.xml",
+            "map": [
+                {
+                    "source": "D:\\androidCache\\.gradle\\caches\\transforms-3\\63d7b6915ca45f6e35b4281bb49b3273\\transformed\\core-1.2.0\\res\\values-pt-rBR\\values-pt-rBR.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

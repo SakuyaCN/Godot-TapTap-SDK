@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.godot.game-mergeDebugResources-3:/values-tr/values-tr.xml",
+            "map": [
+                {
+                    "source": "D:\\androidCache\\.gradle\\caches\\transforms-3\\d2982202958aa1abac8561b1f028e525\\transformed\\jetified-GodotTapTapSdk\\res\\values-tr\\values-tr.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,191,259,325,419,496,610,668,725,791,846,922,992,1131,1204,1277,1429,1492,1551,1612,1671,1893",
+                        "endColumns": "68,66,67,65,93,76,113,57,56,65,54,75,69,138,72,72,151,62,58,60,58,221,92",
+                        "endOffsets": "119,186,254,320,414,491,605,663,720,786,841,917,987,1126,1199,1272,1424,1487,1546,1607,1666,1888,1981"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,191,259,325,490,567,681,739,796,862,917,993,1063,1202,1275,1348,1500,1563,1622,1683,1742,1964",
+                        "endColumns": "68,66,67,65,93,76,113,57,56,65,54,75,69,138,72,72,151,62,58,60,58,221,92",
+                        "endOffsets": "119,186,254,320,414,562,676,734,791,857,912,988,1058,1197,1270,1343,1495,1558,1617,1678,1737,1959,2052"
+                    }
+                },
+                {
+                    "source": "D:\\Godot\\Godot TapTap SDK\\android\\build\\res\\values-tr\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "67",
+                        "endOffsets": "178"
+                    },
+                    "to": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "419",
+                        "endColumns": "70",
+                        "endOffsets": "485"
+                    }
+                },
+                {
+                    "source": "D:\\androidCache\\.gradle\\caches\\transforms-3\\63d7b6915ca45f6e35b4281bb49b3273\\transformed\\core-1.2.0\\res\\values-tr\\values-tr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "26",
+                        "startColumns": "4",
+                        "startOffsets": "2057",
+                        "endColumns": "100",
+                        "endOffsets": "2153"
+                    }
+                }
+            ]
+        }
+    ]
+}

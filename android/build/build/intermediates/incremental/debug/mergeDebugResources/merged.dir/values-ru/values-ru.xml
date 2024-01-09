@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="connect_copy_success">Обновления игры</string>
+    <string name="connect_fun_moment">Обновления игры</string>
+    <string name="connect_fun_review">Обзор игры</string>
+    <string name="connect_fun_share">Обновления игры</string>
+    <string name="connect_share_url_tip">Ссылка скопирована. Поделитесь ей с друзьями!</string>
+    <string name="godot_project_name_string">Godot TapTap SDK</string>
+    <string name="login_account_logged_tip">Залогиненный аккаунт: %s</string>
+    <string name="moment_browser_load_failed_message">Страница не загружается, нажмите, чтобы попробовать снова</string>
+    <string name="moment_dialog_cancel">Отменить</string>
+    <string name="moment_dialog_confirm">Подтвердить</string>
+    <string name="moment_dialog_content">Вернуться в игру.</string>
+    <string name="moment_dialog_title">Внимание</string>
+    <string name="moment_load_fail_hint">Не удалось загрузить. Попробуйте снова.</string>
+    <string name="moment_permission_intent_confirm">Разрешить</string>
+    <string name="moment_permission_intent_reason">Разрешите игре получить доступ к вашему альбому, чтобы вы могли сохранять или загружать видео/изображения.</string>
+    <string name="moment_permission_intent_title">Доступ к медиа</string>
+    <string name="moment_permission_tip_confirm">Перейти в настройки</string>
+    <string name="moment_permission_tip_reason">Не удалось получить доступ к изображениям/видео. Пожалуйста, сначала перейдите в настройки, чтобы разрешить доступ к камере.</string>
+    <string name="moment_permission_tip_title">Внимание</string>
+    <string name="moment_save_fail">Не удалось сохранить</string>
+    <string name="moment_save_image">Сохранить изображение</string>
+    <string name="moment_save_success">Сохранено</string>
+    <string name="moment_security_jump_alert_message">Вы собираетесь покинуть TapTap и перейти на внешний браузер для доступа к ссылке :%s, может существовать риск, будьте внимательны при его определении.</string>
+    <string name="moment_security_jump_alert_title">Подтвердите доступ к этой ссылке</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">">999"</string>
+</resources>

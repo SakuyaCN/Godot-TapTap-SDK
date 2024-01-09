@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="connect_copy_success">Actualizaciones del juego</string>
+    <string name="connect_fun_moment">Actualizaciones de juego</string>
+    <string name="connect_fun_review">Revisar el juego</string>
+    <string name="connect_fun_share">Actualizaciones de juego</string>
+    <string name="connect_share_url_tip">Enlace copiado. ¡Compártelo con tus amigos!</string>
+    <string name="godot_project_name_string">Godot TapTap SDK</string>
+    <string name="login_account_logged_tip">Cuenta iniciada: %s</string>
+    <string name="moment_browser_load_failed_message">Falló la carga de la página, haga clic para volver a intentarlo</string>
+    <string name="moment_dialog_cancel">Cancelar</string>
+    <string name="moment_dialog_confirm">Confirmar</string>
+    <string name="moment_dialog_content">Vuelve al juego.</string>
+    <string name="moment_dialog_title">Atención</string>
+    <string name="moment_load_fail_hint">La carga ha fallado. Inténtelo de nuevo.</string>
+    <string name="moment_permission_intent_confirm">Permitir</string>
+    <string name="moment_permission_intent_reason">Permite que el juego acceda a tu álbum para que puedas guardar o subir vídeos/imágenes.</string>
+    <string name="moment_permission_intent_title">Acceso a galería</string>
+    <string name="moment_permission_tip_confirm">Ir a ajustes</string>
+    <string name="moment_permission_tip_reason">No se ha podido acceder a las imágenes/vídeos. Por favor, primero ve a Ajustes para permitir el acceso a la cámara.</string>
+    <string name="moment_permission_tip_title">Atención</string>
+    <string name="moment_save_fail">Error al guardar</string>
+    <string name="moment_save_image">Guardar imagen</string>
+    <string name="moment_save_success">Guardado</string>
+    <string name="moment_security_jump_alert_message">Estás a punto de salir de TapTap y acceder a un navegador externo para acceder al enlace: %s, puede haber riesgos, por favor identifícalos con cuidado.</string>
+    <string name="moment_security_jump_alert_title">Confirma el acceso a este enlace</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>
