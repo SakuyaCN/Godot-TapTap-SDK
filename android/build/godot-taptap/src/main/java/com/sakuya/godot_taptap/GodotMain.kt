@@ -2,11 +2,13 @@ package com.sakuya.godot_taptap
 
 import android.util.Log
 import com.sakuya.godot_taptap.taptap.GodotTapTap
+import com.sakuya.godot_taptap.taptap.TapAdNativeHelper
 import com.tapsdk.antiaddictionui.AntiAddictionUIKit
 import com.tapsdk.moment.TapMoment
 import org.godotengine.godot.Godot
 import org.godotengine.godot.plugin.GodotPlugin
 import org.godotengine.godot.plugin.SignalInfo
+import org.godotengine.godot.plugin.UsedByGodot
 
 
 class GodotMain(godot: Godot?) : GodotPlugin(godot) {
@@ -21,7 +23,7 @@ class GodotMain(godot: Godot?) : GodotPlugin(godot) {
         return mutableListOf(
             "init","isLogin","login","getCurrentProfile","logOut",
             "quickCheck","antiExit","setTestEnvironment",
-            "setEntryVisible","momentOpen"
+            "setEntryVisible","momentOpen","adnInit","initRewardVideoAd","showRewardVideoAd"
         )
     }
 
@@ -29,7 +31,8 @@ class GodotMain(godot: Godot?) : GodotPlugin(godot) {
         return mutableSetOf(
             SignalInfo("onLoginResult",Integer::class.java,String::class.java),
             SignalInfo("onAntiAddictionCallback",Integer::class.java),
-            SignalInfo("onTapMomentCallBack",Integer::class.java)
+            SignalInfo("onTapMomentCallBack",Integer::class.java),
+            SignalInfo("onRewardVideoAdCallBack",Integer::class.java)
         )
     }
 
@@ -132,5 +135,34 @@ class GodotMain(godot: Godot?) : GodotPlugin(godot) {
      */
     private fun momentOpen(ori:Int = TapMoment.ORIENTATION_DEFAULT){
         godotTapTap?.momentOpen(ori)
+    }
+
+    /**
+     * adn初始化
+     */
+    private fun adnInit(mediaId:Int,mediaName:String,mediaKey:String){
+        activity?.let {
+            godotTapTap?.adnInit(it,mediaId.toLong(),mediaName,mediaKey)
+        }
+    }
+
+    /**
+     * 激励广告初始化
+     */
+    private fun initRewardVideoAd(spaceId:Int,rewardName:String,extraInfo:String,userId:String){
+        activity?.let {
+            TapAdNativeHelper.initAd(it,spaceId,rewardName,extraInfo,userId){
+                emitSignal("onRewardVideoAdCallBack",it)
+            }
+        }
+    }
+
+    /**
+     * 展示激励广告
+     */
+    private fun showRewardVideoAd(){
+        activity?.let {
+            TapAdNativeHelper.showAd(it)
+        }
     }
 }

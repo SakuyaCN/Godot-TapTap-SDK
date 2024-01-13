@@ -28,6 +28,30 @@ margin_right = 176.0
 margin_bottom = 339.0
 text = "check"
 
+[node name="Button4" type="Button" parent="."]
+margin_left = 158.0
+margin_top = 447.0
+margin_right = 297.0
+margin_bottom = 521.0
+text = "ad init"
+
+[node name="Button5" type="Button" parent="."]
+margin_left = 55.0
+margin_top = 601.0
+margin_right = 194.0
+margin_bottom = 675.0
+text = "ad load"
+
+[node name="Button6" type="Button" parent="."]
+margin_left = 288.0
+margin_top = 605.0
+margin_right = 427.0
+margin_bottom = 679.0
+text = "ad show"
+
 [connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
 [connection signal="pressed" from="Button2" to="." method="_on_Button2_pressed"]
 [connection signal="pressed" from="Button3" to="." method="_on_Button3_pressed"]
+[connection signal="pressed" from="Button4" to="." method="_on_Button4_pressed"]
+[connection signal="pressed" from="Button5" to="." method="_on_Button5_pressed"]
+[connection signal="pressed" from="Button6" to="." method="_on_Button6_pressed"]

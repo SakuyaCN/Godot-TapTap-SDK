@@ -66,6 +66,8 @@ dependencies {
     embed (name:'TapConnect_3.27.0', ext:'aar') // TapTap 悬浮窗
     embed (name:'TapMoment_3.27.0', ext:'aar') // TapTap 悬浮窗依赖内嵌动态-必选
 
+    embed(name: 'TapAD_3.16.3.25h1', ext: 'aar')
+
     compileOnly('cn.leancloud:storage-android:8.2.19')
     compileOnly('cn.leancloud:realtime-android:8.2.19')
     compileOnly('io.reactivex.rxjava2:rxandroid:2.1.1')
